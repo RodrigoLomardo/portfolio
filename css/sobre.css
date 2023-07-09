@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    
+    background-color: blueviolet;
+} 
+
+
+
+.titulo h1 {
+    color: wheat;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    background: transparent;
+   
+    
+    
+}
+
+.texto h1 {
+    color: wheat;
+    font-size: 30px;
+    position: relative;
+    top: 90px;
+    left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 90%;
+    text-decoration: underline;
+}
+
+.texto h1#hs {
+    color: wheat;
+    font-size: 30px;
+    position: relative;
+    top: 55px;
+    left: 800px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 90%;
+    background: transparent;
+    text-decoration: underline;
+}
+.texto h1#cc {
+    color: wheat;
+    font-size: 30px;
+    position: relative;
+    top: 205px;
+    left: 800px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 90%;
+    background: transparent;
+    text-decoration: underline;
+}
+.texto h1#f {
+    color: wheat;
+    font-size: 30px;
+    position: relative;
+    top: 260px;
+    left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 90%;
+    background: transparent;
+    text-decoration: underline;
+}
+
+.texto p {
+    font-family: 'Montserrat', sans-serif;
+    color: wheat;
+    position: absolute;
+    background: transparent;
+    width: 500px;
+    font-size: 15px;
+    left: 19px;
+    top: 130px;
+    opacity: 85%;
+    
+    
+    
+}
+
+.texto p#hs {
+    font-family: 'Montserrat', sans-serif;
+    color: wheat;
+    position: absolute;
+    background: transparent;
+    width: 550px;
+    font-size: 15px;
+    left: 760px;
+    top: 130px;
+    opacity: 85%;
+    
+    
+    
+}
+
+
+
+/* listas */
+
+.texto ul {
+    
+    color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    left: 830px;
+    top: 320px;
+    position: absolute;
+    background: transparent;
+}
+
+.texto ul#form {
+    color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    left: 62px;
+    top: 420px;
+    position: absolute;
+    background: transparent;
+}
+
+/* contato */
+.contato h1 {
+    color: wheat;
+    font-size: 30px;
+    position: relative;
+    top: 400px;
+    left: 520px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 90%;
+    text-decoration: underline;
+    background: transparent;
+}
+
+/* icones */
+
+.contato a#wpp{
+    font-size: 30px;
+    position: absolute;
+    background: transparent;
+    top: 600px;
+    left: 630px;
+}
+
+/* hubs */
+
+.areas a#home {
+    color: rgb(81, 55, 105);
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    text-decoration: underline;
+    top: 10px;
+    left: 1110px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+.areas a#home:hover {
+    font-size: 19px;
+}
+
+.areas a#projetos {
+    position: absolute;
+    width: 100%;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(81, 55, 105);
+    top: 10px;
+    left: 1200px;
+    background-color: transparent;
+    background: transparent;
+}
+
+.areas a#projetos:hover {
+    font-size: 19px;
+}
+
+
+
