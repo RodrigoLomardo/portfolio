@@ -12,12 +12,12 @@
 .titulo h1 {
     position: absolute;
     color: wheat;
-    font-size: 40px;
+    font-size: 45px;
     background: transparent;
     font-family: 'Montserrat', sans-serif;
-
-    left: 550px;
-    top: 60px;
+    display: flex;
+    left: 600px;
+    top: 50px;
 
 
 
@@ -31,7 +31,7 @@
     font-family: 'Montserrat', sans-serif;
     display: grid;
     left: 140px;
-    top: 160px;
+    top: 135px;
     
 
 }
@@ -44,7 +44,7 @@
     font-family: 'Montserrat', sans-serif;
     display: grid;
     left: 550px;
-    top: 160px;
+    top: 135px;
     
 
 }
@@ -57,9 +57,69 @@
     font-family: 'Montserrat', sans-serif;
     display: grid;
     left: 950px;
-    top: 160px;
+    top: 135px;
     
 
+}
+
+/* card 1 */
+.card {
+    background-color: rgba(0, 0, 0, 0.779);
+    position: relative;
+    width: 320px;
+    height: 530px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img#login {
+    top: 80px;
+    width: 250px;
+    height: 300px;
+    border-radius: 16px;
+    position: absolute;
+    transition: 0.8s;
+    
+}
+
+img#login:hover {
+    transform: scale(1.1)
+    
+}
+
+
+h1#login {
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+}
+
+p#desc {
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    top: 410px;
+    position: relative;
+}
+
+a#proj img {
+    background: transparent;
+    height: 40px;
+    left: 136px;
+    top: 470px;
+    position: absolute;
+    transition: height 0.8s;
+}
+
+a#proj img:hover {
+    height: 45px;
+    
 }
 
 
@@ -96,5 +156,6 @@
 .areas a#sobre:hover {
     font-size: 19px;
 }
+
 
 
